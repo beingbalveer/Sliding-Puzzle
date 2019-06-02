@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    tools:context="com.bandroid.balveer.slidingpuzzlev_2.game">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sliding Puzzle"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#0f0"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="20dp"
+            android:textColor="#f00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:textSize="30sp"
+            android:textColor="#f00"
+            android:layout_below="@+id/name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+        <ImageButton
+            android:id="@+id/i2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/i2"/>
+
+        <ImageButton
+            android:id="@+id/i1"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="100dp"
+            android:layout_toLeftOf="@+id/i2"
+            android:src="@drawable/i1"/>
+
+        <ImageButton
+            android:id="@+id/i3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@+id/i2"
+            android:src="@drawable/i3"/>
+
+        <ImageButton
+            android:id="@+id/i5"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/i2"
+            android:src="@drawable/i5"/>
+
+        <ImageButton
+            android:id="@+id/i4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/i2"
+            android:layout_toLeftOf="@+id/i5"
+            android:src="@drawable/i4"/>
+
+        <ImageButton
+            android:id="@+id/i6"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/i2"
+            android:layout_toRightOf="@+id/i5"
+            android:src="@drawable/i6"/>
+
+        <ImageButton
+            android:id="@+id/i8"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/i5"
+            android:src="@drawable/i8"/>
+
+        <ImageButton
+            android:id="@+id/i7"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/i5"
+            android:layout_toLeftOf="@+id/i8"
+            android:src="@drawable/i7"/>
+
+        <ImageButton
+            android:id="@+id/blank"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/i5"
+            android:layout_toRightOf="@+id/i8"
+            android:src="@drawable/blank"/>
+
+    </RelativeLayout>
